@@ -1,15 +1,5 @@
-if(!criei){
-	for(var _i = 0; _i < quant; _i++){
-		
-	}
-	criei = 1;
+scroll += vel;	
+
+if(scroll >= spriteW - (spriteW/2)){	//se posicao maior que width da sprite
+    scroll -= spriteW;		//posicao menos width
 }
-
-
-/*
-if(x.x < 0 - spriteW){
-
-
-x.x += spritex.w * quant;
-
-*?

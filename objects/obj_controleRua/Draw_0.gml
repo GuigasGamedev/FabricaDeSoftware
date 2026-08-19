@@ -1,0 +1,2 @@
+draw_sprite(global.spriteRua, 0, -scroll, yOrig);					//desenhando a sprite com scroll no parametro x
+draw_sprite(global.spriteRua, 0, spriteW - scroll, yOrig);		//desenhado outra sprite duplicada para loopar a base

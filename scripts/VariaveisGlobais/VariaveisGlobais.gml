@@ -1,2 +1,3 @@
 global.spriteRua = spr_rua1;
-global.velRua = 1;
+global.velRuaOrigin = 10;
+global.velRua = global.velRuaOrigin;
