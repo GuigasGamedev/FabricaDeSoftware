@@ -1,0 +1,5 @@
+Sprint1:
+
+Player
+gerador de obstaculos
+Sistema de dano (com iframes)

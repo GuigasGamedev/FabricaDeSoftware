@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Notas","folderPath":"folders/Notas.yy","name":"Notas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -25,6 +26,7 @@
   },
   "name":"FabricaDeSoftware",
   "resources":[
+    {"id":{"name":"A Fazer","path":"notes/A Fazer/A Fazer.yy",},},
     {"id":{"name":"obj_controleRua","path":"objects/obj_controleRua/obj_controleRua.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"VariaveisGlobais","path":"scripts/VariaveisGlobais/VariaveisGlobais.yy",},},
