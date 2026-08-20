@@ -29,9 +29,11 @@
   "resources":[
     {"id":{"name":"A Fazer","path":"notes/A Fazer/A Fazer.yy",},},
     {"id":{"name":"obj_controleRua","path":"objects/obj_controleRua/obj_controleRua.yy",},},
+    {"id":{"name":"obj_obstaculo","path":"objects/obj_obstaculo/obj_obstaculo.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"VariaveisGlobais","path":"scripts/VariaveisGlobais/VariaveisGlobais.yy",},},
+    {"id":{"name":"spr_obstacSH","path":"sprites/spr_obstacSH/spr_obstacSH.yy",},},
     {"id":{"name":"spr_playerSH","path":"sprites/spr_playerSH/spr_playerSH.yy",},},
     {"id":{"name":"spr_ruaSH","path":"sprites/spr_ruaSH/spr_ruaSH.yy",},},
   ],

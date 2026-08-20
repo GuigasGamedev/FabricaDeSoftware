@@ -1,1 +1,1 @@
-draw_sprite(spr_playerSH,  0, x, y);
+draw_sprite(global.spritePlayer,  0, x, y);

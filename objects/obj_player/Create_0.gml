@@ -1,20 +1,12 @@
 vidaInicial = 100;
 vida = vidaInicial;
 
-//posição mais baixa
-var _pos1 = room_height - 110;
-var _pos2 = room_height - 345;
-var _pos3 = room_height - 575;
-
-//array com 3 posicoes
-posicoesY = [_pos1, _pos2, _pos3];
-
 //index da posicao
 indexP = 1
 
 //posicoes originais
 xOrig = 300;
-yOrig = posicoesY[indexP];
+yOrig = global.posicoesY[indexP];
 
 x = xOrig;
 y = yOrig;
@@ -38,6 +30,6 @@ controle = function(){
 	}
 	
 	//fazer isso com lerp dps
-	y = posicoesY[indexP];
+	y = global.posicoesY[indexP];
 	
 }
