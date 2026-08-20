@@ -1,5 +1,5 @@
 Sprint1:
 
-Player
+Player - feito
 gerador de obstaculos
 Sistema de dano (com iframes)

@@ -1,0 +1,1 @@
+draw_sprite(spr_playerSH,  0, x, y);
