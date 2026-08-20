@@ -33,6 +33,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"FuncoesDeJogo","path":"scripts/FuncoesDeJogo/FuncoesDeJogo.yy",},},
+    {"id":{"name":"FuncoesGerais","path":"scripts/FuncoesGerais/FuncoesGerais.yy",},},
     {"id":{"name":"VariaveisGlobais","path":"scripts/VariaveisGlobais/VariaveisGlobais.yy",},},
     {"id":{"name":"spr_obstacSH","path":"sprites/spr_obstacSH/spr_obstacSH.yy",},},
     {"id":{"name":"spr_playerSH","path":"sprites/spr_playerSH/spr_playerSH.yy",},},

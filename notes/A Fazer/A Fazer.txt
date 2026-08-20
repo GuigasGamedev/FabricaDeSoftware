@@ -2,14 +2,20 @@ Sprint1:
 
 Player - feito
 gerador de obstaculos - feito
+gerador de comidas ruins
+gerador de comidas boas
+gerador de power ups
+gerador de moedas
 aleatorizar obstaculos 
 Sistema de dano (com iframes)
 
 
+Sprint2:
+
+gerador de layouts
 
 
-
-Anotações de GameFeel (para sprint 2)
+Sprint3:
 
 iniciar a fase com o player fora da tela
 movimentação com lerp
