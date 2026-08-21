@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obstacSH",
-    "path":"sprites/spr_obstacSH/spr_obstacSH.yy",
+    "name":"spr_obstacPH",
+    "path":"sprites/spr_obstacPH/spr_obstacPH.yy",
   },
   "spriteMaskId":null,
   "visible":true,

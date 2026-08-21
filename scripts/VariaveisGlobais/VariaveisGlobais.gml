@@ -1,7 +1,7 @@
 //sprites
-global.spriteRua = spr_ruaSH;
-global.spritePlayer = spr_playerSH;
-global.spriteObsta = spr_obstacSH;
+global.spriteRua = spr_ruaPH;
+global.spritePlayer = spr_playerPH;
+global.spriteObsta = spr_obstacPH;
 
 //posicoes da rua
 //posição mais baixa
