@@ -9,4 +9,10 @@ yOrig = room_height - (spriteH/2);
 scroll = 0;
 
 
-aleatorizador = function(_timer, _dif,
+//controle de objetos
+cicloT = 0;
+aleatorizador = function(_dif, _timerAtual){
+	
+	
+	
+}

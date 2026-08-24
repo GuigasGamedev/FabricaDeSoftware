@@ -48,9 +48,3 @@ function criaObjeto(_case){
 	}
 
 }
-
-function geraObjeto(){
-	
-	
-	
-}
