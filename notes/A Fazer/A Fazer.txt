@@ -5,8 +5,8 @@ Ajustar altura (Ela nao pode ser definida no bjeto) - Feito
 gerador de obstaculos - feito
 gerador de comidas ruins - Feito
 gerador de comidas boas - Feito
-gerador de power ups
-gerador de moedas
+gerador de power ups - Feito
+gerador de moedas - Feito
 aleatorizar obstaculos 
 Sistema de dano (com iframes)
 

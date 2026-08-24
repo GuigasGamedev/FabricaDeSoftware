@@ -32,6 +32,7 @@
   "name":"FabricaDeSoftware",
   "resources":[
     {"id":{"name":"A Fazer","path":"notes/A Fazer/A Fazer.yy",},},
+    {"id":{"name":"IDsObjetos","path":"notes/IDsObjetos/IDsObjetos.yy",},},
     {"id":{"name":"obj_comidaBoa","path":"objects/obj_comidaBoa/obj_comidaBoa.yy",},},
     {"id":{"name":"obj_comidaRuim","path":"objects/obj_comidaRuim/obj_comidaRuim.yy",},},
     {"id":{"name":"obj_controleRua","path":"objects/obj_controleRua/obj_controleRua.yy",},},
@@ -43,6 +44,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"FuncoesDeJogo","path":"scripts/FuncoesDeJogo/FuncoesDeJogo.yy",},},
     {"id":{"name":"FuncoesGerais","path":"scripts/FuncoesGerais/FuncoesGerais.yy",},},
+    {"id":{"name":"InformacoesDeFases","path":"scripts/InformacoesDeFases/InformacoesDeFases.yy",},},
     {"id":{"name":"VariaveisGlobais","path":"scripts/VariaveisGlobais/VariaveisGlobais.yy",},},
     {"id":{"name":"spr_comBoaPH","path":"sprites/spr_comBoaPH/spr_comBoaPH.yy",},},
     {"id":{"name":"spr_comRuimPH","path":"sprites/spr_comRuimPH/spr_comRuimPH.yy",},},

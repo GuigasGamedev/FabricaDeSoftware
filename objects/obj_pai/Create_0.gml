@@ -1,6 +1,6 @@
 randomise();
 
-sprite = global.spriteObsta;
+sprite = global.spriteObj;
 
 spriteW = sprite_get_width(sprite);
 var _xOrig = room_width + (spriteW / 2) + 20;

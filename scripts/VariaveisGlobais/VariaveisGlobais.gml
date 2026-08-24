@@ -3,6 +3,10 @@ global.spriteRua = spr_ruaPH;
 global.spritePlayer = spr_playerPH;
 global.spriteObsta = spr_obstacPH;
 
+//essa muda toda hora
+global.spriteObj = spr_comBoaPH;
+//vetor que será utilizado para pegar as sprites
+
 //posicoes da rua
 //posição mais baixa
 var _SalaH = 1080;
@@ -20,6 +24,7 @@ global.posicoesY = [_pos1, _pos2, _pos3];
 
 //velocidade do jogo:
 global.velRua = 10;
+global.velIncrease = 1;
 
 //A aleatoriedade funciona da seguinte maneira:
 
@@ -28,9 +33,11 @@ global.dif = 1;
 
 //intervalo de frames que o jogo calcula se algo acontece ou nao
 global.randTimer = 60;
+global.timerAtual = global.randTimer;
 
 //quantidade que o tempo deve diminuir quando um ciclo acabar
 global.timerDecay = 1;
 
 //quantidade de checagens que um ciclo deve ter
 global.timerCicle = 10;
+global.cicleAtual = global.timerCicle;

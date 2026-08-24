@@ -1,0 +1,1 @@
+criaRoom(global.fase1, global.fase1Spr);
