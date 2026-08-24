@@ -1,19 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controleRua",
+  "%Name":"obj_comidaBoa",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_controleRua",
+  "name":"obj_comidaBoa",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controles",
-    "path":"folders/Objects/Controles.yy",
+    "name":"Objetos",
+    "path":"folders/Objects/Objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_pai",
+    "path":"objects/obj_pai/obj_pai.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_comBoaPH",
+    "path":"sprites/spr_comBoaPH/spr_comBoaPH.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"StakeHolders",
-    "path":"folders/Sprites/StakeHolders.yy",
+    "name":"PlaceHolders",
+    "path":"folders/Sprites/PlaceHolders.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

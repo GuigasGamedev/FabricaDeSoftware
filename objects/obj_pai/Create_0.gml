@@ -1,9 +1,8 @@
 randomise();
 
-var _indexP = irandom_range(0,2);
-y = global.posicoesY[_indexP];
+sprite = global.spriteObsta;
 
-spriteW = sprite_get_width(global.spritePlayer);
+spriteW = sprite_get_width(sprite);
 var _xOrig = room_width + (spriteW / 2) + 20;
 
 scroll = _xOrig;

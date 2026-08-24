@@ -10,6 +10,7 @@ yOrig = global.posicoesY[indexP];
 
 x = xOrig;
 y = yOrig;
+velTrans = .2;
 
 
 
@@ -30,6 +31,6 @@ controle = function(){
 	}
 	
 	//fazer isso com lerp dps
-	y = global.posicoesY[indexP];
+	y = lerp(y, global.posicoesY[indexP], velTrans);
 	
 }

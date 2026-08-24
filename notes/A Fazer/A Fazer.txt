@@ -1,9 +1,10 @@
 Sprint1:
 
 Player - feito
+Ajustar altura (Ela nao pode ser definida no bjeto) - Feito
 gerador de obstaculos - feito
-gerador de comidas ruins
-gerador de comidas boas
+gerador de comidas ruins - Feito
+gerador de comidas boas - Feito
 gerador de power ups
 gerador de moedas
 aleatorizar obstaculos 

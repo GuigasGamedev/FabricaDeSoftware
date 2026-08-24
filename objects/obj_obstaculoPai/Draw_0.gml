@@ -1,1 +1,0 @@
-draw_sprite(global.spriteObsta, 0, scroll, y);
