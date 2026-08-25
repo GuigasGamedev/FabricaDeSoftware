@@ -34,3 +34,13 @@ controle = function(){
 	y = lerp(y, global.posicoesY[indexP], velTrans);
 	
 }
+
+checaColisao = function(){
+
+	if(instance_place(x, y, obj_pai)){
+	
+		
+		//show_debug_message("Colidiu");
+	}
+	
+}
