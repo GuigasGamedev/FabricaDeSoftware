@@ -8,7 +8,8 @@ gerador de comidas boas - Feito
 gerador de power ups - Feito
 gerador de moedas - Feito
 aleatorizar obstaculos - Feito
-Sistema de dano (com iframes)
+Sistema de dano (com iframes) - Feito
+Ajustar geraçao e velocidade, etc
 
 
 Sprint2:
@@ -21,5 +22,6 @@ Sprint3:
 iniciar a fase com o player fora da tela
 aproximar a camera
 movimentação com lerp - Feito
+xscale e ysxcale na movimentacao
 Tremer a tela com colisao
 Hitstop com colisao

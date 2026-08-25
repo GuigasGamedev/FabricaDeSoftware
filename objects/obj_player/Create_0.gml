@@ -11,8 +11,17 @@ yOrig = global.posicoesY[indexP];
 x = xOrig;
 y = yOrig;
 velTrans = .2;
+xscale = 1;
+yscale = 1;
+alfa = 1;
 
 moedas = 0;
+
+invencivel = 0;
+iframe = 120;
+iframeCount = iframe;
+fade = 1;
+fadeVel = .1;
 
 controle = function(){
 
@@ -35,12 +44,41 @@ controle = function(){
 	
 }
 
-checaColisao = function(){
+checaInvencivel = function(){
 
-	if(instance_place(x, y, obj_pai)){
-	
+	if(invencivel){
 		
-		//show_debug_message("Colidiu");
+		if(iframeCount>0){
+			
+			iframeCount--;	
+			
+			if(fade){
+			
+				if(alfa>0){
+					alfa-=fadeVel;
+					if(alfa <= 0){
+						fade = 0;	
+					}
+				}
+			
+			}else if(!fade){
+				if(alfa<1){
+					alfa+=fadeVel;
+					if(alfa>=1){
+						fade = 1;
+					}
+				}
+			}
+		
+		}else{
+		
+			invencivel=0;
+			fade = 1;
+			alfa = 1;
+			iframeCount = iframe;
+		
+		}
+	
 	}
 	
 }

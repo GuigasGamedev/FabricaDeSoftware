@@ -1,1 +1,1 @@
-draw_sprite(global.spritePlayer,  0, x, y);
+draw_sprite_ext(global.spritePlayer, 0, x, y, xscale, yscale, 0, c_white, alfa);

@@ -1,2 +1,2 @@
 controle();
-checaColisao();
+checaInvencivel();
