@@ -12,7 +12,7 @@ x = xOrig;
 y = yOrig;
 velTrans = .2;
 
-
+moedas = 0;
 
 controle = function(){
 

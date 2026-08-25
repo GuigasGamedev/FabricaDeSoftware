@@ -31,18 +31,18 @@ function criaObjeto(_case){
 		break;
 		case(3):
 		
-			global.spriteObj = spr_powerUpPH;
-			
-			var _powerUp = instance_create_layer(0, 0, "Obstaculo", obj_powerUp);
-			_powerUp.y = global.posicoesY[geraLane()];
-		
-		break;
-		case(4):
-		
 			global.spriteObj = spr_moedaPH;
 			
 			var _moeda = instance_create_layer(0, 0, "Obstaculo", obj_moeda);
 			_moeda.y = global.posicoesY[geraLane()];
+		
+		break;
+		case(4):
+		
+			global.spriteObj = spr_powerUpPH;
+			
+			var _powerUp = instance_create_layer(0, 0, "Obstaculo", obj_powerUp);
+			_powerUp.y = global.posicoesY[geraLane()];
 		
 		break;
 	}
