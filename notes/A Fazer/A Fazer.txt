@@ -7,18 +7,19 @@ gerador de comidas ruins - Feito
 gerador de comidas boas - Feito
 gerador de power ups - Feito
 gerador de moedas - Feito
-aleatorizar obstaculos 
+aleatorizar obstaculos - Feito
 Sistema de dano (com iframes)
 
 
 Sprint2:
 
 gerador de layouts
-
+gerador aleatorio baseado em dificuldade
 
 Sprint3:
 
 iniciar a fase com o player fora da tela
-movimentação com lerp
+aproximar a camera
+movimentação com lerp - Feito
 Tremer a tela com colisao
 Hitstop com colisao

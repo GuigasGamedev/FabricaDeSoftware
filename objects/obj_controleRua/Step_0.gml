@@ -4,7 +4,7 @@ if(scroll >= spriteW - (spriteW/2)){	//se posicao maior que width da sprite
     scroll -= spriteW;		//posicao menos width
 }
 
-//Substituir por rng
+//fica ai como debug por enquanto
 if(keyboard_check_pressed(ord("I"))){
 	criaObjeto(0);
 }
@@ -20,3 +20,7 @@ if(keyboard_check_pressed(ord("K"))){
 if(keyboard_check_pressed(ord("L"))){
 	criaObjeto(4);
 }
+
+aleatorizador();
+
+//show_debug_message(global.velRua);
