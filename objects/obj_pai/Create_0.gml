@@ -35,39 +35,38 @@ checaColisao = function(){
 			break;
 			case(1):
 			
-					if(instance_exists(obj_player)){
-						if(obj_player.vida <= 100){
+				if(instance_exists(obj_player)){
+					if(obj_player.vida <= 100){
 							
-							if(obj_player.vida + valor >= 100){
-								obj_player.vida = 100;	
-							}else{
-								obj_player.vida += valor;
-							}
+						if(obj_player.vida + valor >= 100){
+							obj_player.vida = 100;	
+						}else{	
+							obj_player.vida += valor;
 						}
-						instance_destroy(id);
 					}
+					instance_destroy(id);
+				}
 			
 			break;
 			case(2):
 			
-					if(instance_exists(obj_player)){
-						if(obj_player.vida > 0 and !obj_player.invencivel){
-							obj_player.vida -= valor;
+				if(instance_exists(obj_player)){
+					if(obj_player.vida > 0 and !obj_player.invencivel){
+						obj_player.vida -= valor;
 							
-						}
-						instance_destroy(id);
 					}
-				
+					instance_destroy(id);	
+				}
 			
 			break;
 			case(3):
 
-					if(instance_exists(obj_player)){
+				if(instance_exists(obj_player)){
 					
-						obj_player.moedas++;
-						instance_destroy(id);
+					obj_player.moedas++;
+					instance_destroy(id);
 						
-					}
+				}
 			
 			break;
 			case(4):
