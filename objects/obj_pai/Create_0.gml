@@ -72,6 +72,7 @@ checaColisao = function(){
 			case(4):
 			
 				//fazer nada por enquanto, vai ser power up
+				//decidir depois o que vai fazer aqui (mas vai ter mais alem desses)
 			
 			break;
 		

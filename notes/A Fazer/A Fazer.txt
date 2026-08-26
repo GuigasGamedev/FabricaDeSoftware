@@ -9,17 +9,22 @@ gerador de power ups - Feito
 gerador de moedas - Feito
 aleatorizar obstaculos - Feito
 Sistema de dano (com iframes) - Feito
-Ajustar geraçao e velocidade, etc
+Ajustar geraçao e velocidade, etc - Feito eu acho
 
 
 Sprint2:
 
 gerador de layouts
 gerador aleatorio baseado em dificuldade
+menu
+loja de power up
+salvamento com json
+(talvez) boss fights
 
 Sprint3:
 
 iniciar a fase com o player fora da tela
+particulas
 aproximar a camera
 movimentação com lerp - Feito
 xscale e ysxcale na movimentacao
