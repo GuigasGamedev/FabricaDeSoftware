@@ -22,9 +22,7 @@ function criaObjeto(_case){
 			
 		break;
 		case(2):
-		
 			global.spriteObj = spr_comRuimPH;
-			
 			var _comRuim = instance_create_layer(0, 0, "Obstaculo", obj_comidaRuim);
 			_comRuim.y = global.posicoesY[geraLane()];
 		
@@ -47,4 +45,18 @@ function criaObjeto(_case){
 		break;
 	}
 
+}
+
+function criaLayout(_id){
+	
+	switch(_id){
+	
+		case(0):
+		
+			
+		
+		break;
+	
+	}
+	
 }

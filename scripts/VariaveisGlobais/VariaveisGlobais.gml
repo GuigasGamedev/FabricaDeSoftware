@@ -3,6 +3,8 @@ global.spriteRua = spr_ruaPH;
 global.spritePlayer = spr_playerPH;
 global.spriteObsta = spr_obstacPH;
 
+global.podeGerar = 0;
+
 //essa muda toda hora
 global.spriteObj = spr_comBoaPH;
 //vetor que será utilizado para pegar as sprites
