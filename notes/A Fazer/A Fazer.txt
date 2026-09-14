@@ -14,10 +14,12 @@ Ajustar geraçao e velocidade, etc - Feito eu acho
 
 Sprint2:
 
+Ajustar o codigo pra deixar mais simples
+Sprites
+Efeito paralax no fundo
 gerador de layouts
 gerador aleatorio baseado em dificuldade
 menu
-loja de power up
 salvamento com json
 (talvez) boss fights
 
