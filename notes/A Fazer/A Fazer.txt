@@ -20,8 +20,7 @@ Efeito paralax no fundo
 gerador de layouts
 gerador aleatorio baseado em dificuldade
 menu
-salvamento com json
-(talvez) boss fights
+salvamento de progresso com json
 
 Sprint3:
 
