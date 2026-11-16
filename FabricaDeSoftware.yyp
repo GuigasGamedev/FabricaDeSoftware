@@ -32,7 +32,9 @@
   "name":"FabricaDeSoftware",
   "resources":[
     {"id":{"name":"A Fazer","path":"notes/A Fazer/A Fazer.yy",},},
+    {"id":{"name":"Audios","path":"notes/Audios/Audios.yy",},},
     {"id":{"name":"IDsObjetos","path":"notes/IDsObjetos/IDsObjetos.yy",},},
+    {"id":{"name":"Lista de sprites pendentes","path":"notes/Lista de sprites pendentes/Lista de sprites pendentes.yy",},},
     {"id":{"name":"obj_comidaBoa","path":"objects/obj_comidaBoa/obj_comidaBoa.yy",},},
     {"id":{"name":"obj_comidaRuim","path":"objects/obj_comidaRuim/obj_comidaRuim.yy",},},
     {"id":{"name":"obj_controleRua","path":"objects/obj_controleRua/obj_controleRua.yy",},},

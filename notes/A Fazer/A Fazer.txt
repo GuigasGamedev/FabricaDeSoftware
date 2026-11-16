@@ -14,18 +14,24 @@ Ajustar geraçao e velocidade, etc - Feito eu acho
 
 Sprint2:
 
-Ajustar o codigo pra deixar mais simples
-Sprites
+Ajustar o codigo pra deixar mais simples - Nao sei se precisa, Deixa o jogo menos otimizado, mas ao mesmo tempo
+deixa ele pronto pra novas atualizações
+
+Fazer o upgrade
+
+Opções de controle - se der tempo
+
+Sprites - Fazer uma lista de sprites
 Efeito paralax no fundo
-gerador de layouts
-gerador aleatorio baseado em dificuldade
+gerador de layouts - Se der tempo
+gerador aleatorio baseado em dificuldade - Se der tempo
 menu
-salvamento de progresso com json
+salvamento de progresso com json - Só o highscore
 
 Sprint3:
 
 iniciar a fase com o player fora da tela
-particulas
+particulas e gamefeel
 aproximar a camera
 movimentação com lerp - Feito
 xscale e ysxcale na movimentacao
