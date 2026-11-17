@@ -17,6 +17,10 @@ alfa = 1;
 
 moedas = 0;
 
+invencivelPU = 0;
+PUTimermax = 5*60;
+PUTimer = 0;
+PowerUpON = 0;
 invencivel = 0;
 dano = 0;
 iframe = 120;
@@ -78,6 +82,30 @@ checaInvencivel = function(){
 			alfa = 1;
 			iframeCount = iframe;
 		
+		}
+	
+	}
+	
+}
+	
+powerUp = function(){
+	
+	if(PowerUpON){
+		
+		if(!invencivelPU){
+			invencivelPU = 1;
+			PUTimer = PUTimermax;
+		}else{
+		
+			if(PUTimer>0){
+				PUTimer--;
+				if(!PUTimer){
+					PUTimer = 0;
+					invencivelPU = 0;
+					PowerUpON = 0;
+				}
+			}
+			
 		}
 	
 	}

@@ -72,9 +72,11 @@ checaColisao = function(){
 			break;
 			case(4):
 			
-				//fazer nada por enquanto, vai ser power up
+				if(instance_exists(obj_player)){
+					obj_player.PowerUpON = 1;
+					instance_destroy(id);
 				//decidir depois o que vai fazer aqui (mas vai ter mais alem desses)
-			
+				}
 			break;
 		
 		}

@@ -1,2 +1,3 @@
 controle();
 checaInvencivel();
+powerUp();

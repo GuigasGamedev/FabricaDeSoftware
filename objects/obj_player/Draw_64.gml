@@ -4,3 +4,6 @@ draw_text(30, 50, "Moedas: " + string(moedas));
 draw_text(30, 70, "Invencivel: "+ string(invencivel));
 draw_text(30, 90, "Iframe: "+ string(iframeCount));
 draw_text(30, 110, "Fade: "+ string(fade));
+draw_text(30, 130, "InvencivelPU: "+ string(invencivelPU));
+draw_text(30, 150, "PUON: "+ string(PowerUpON));
+draw_text(30, 170, "PUTimer: "+ string(PUTimer));
