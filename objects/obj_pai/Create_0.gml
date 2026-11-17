@@ -27,6 +27,7 @@ checaColisao = function(){
 						
 						obj_player.vida -= valor;
 						obj_player.invencivel = 1;
+						obj_player.dano = 1;
 					
 					}
 				

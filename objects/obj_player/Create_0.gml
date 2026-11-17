@@ -18,6 +18,7 @@ alfa = 1;
 moedas = 0;
 
 invencivel = 0;
+dano = 0;
 iframe = 120;
 iframeCount = iframe;
 fade = 1;
@@ -39,14 +40,13 @@ controle = function(){
 		}
 	}
 	
-	//fazer isso com lerp dps
 	y = lerp(y, global.posicoesY[indexP], velTrans);
 	
 }
 
 checaInvencivel = function(){
 
-	if(invencivel){
+	if(invencivel and dano){
 		
 		if(iframeCount>0){
 			
@@ -73,6 +73,7 @@ checaInvencivel = function(){
 		}else{
 		
 			invencivel=0;
+			dano=0;
 			fade = 1;
 			alfa = 1;
 			iframeCount = iframe;

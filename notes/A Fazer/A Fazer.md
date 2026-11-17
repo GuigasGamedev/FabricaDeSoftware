@@ -26,6 +26,7 @@ Efeito paralax no fundo
 gerador de layouts - Se der tempo
 gerador aleatorio baseado em dificuldade - Se der tempo
 menu
+Tela de morte
 salvamento de progresso com json - Só o highscore
 
 Sprint3:

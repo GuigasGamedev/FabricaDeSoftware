@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"v1",
+  "$GMNotes":"v2",
   "%Name":"Lista de sprites pendentes",
   "name":"Lista de sprites pendentes",
   "parent":{
