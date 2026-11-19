@@ -17,16 +17,15 @@ Sprint2:
 Ajustar o codigo pra deixar mais simples - Nao sei se precisa, Deixa o jogo menos otimizado, mas ao mesmo tempo
 deixa ele pronto pra novas atualizações
 
-Fazer o upgrade
+Fazer o upgrade - Feito
 
 Opções de controle - se der tempo
 
 Sprites - Fazer uma lista de sprites
 Efeito paralax no fundo
 gerador de layouts - Se der tempo
-gerador aleatorio baseado em dificuldade - Se der tempo
 menu
-Tela de morte
+Tela de morte e pontuação final
 salvamento de progresso com json - Só o highscore
 
 Sprint3:
