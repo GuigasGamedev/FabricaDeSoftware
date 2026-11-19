@@ -18,7 +18,7 @@ alfa = 1;
 moedas = 0;
 
 invencivelPU = 0;
-PUTimermax = 5*60;
+PUTimermax = 10*60;
 PUTimer = 0;
 PowerUpON = 0;
 invencivel = 0;
