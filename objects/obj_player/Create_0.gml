@@ -111,3 +111,11 @@ powerUp = function(){
 	}
 	
 }
+	
+checaGameover = function(){
+
+	if(vida <= 0){
+		global.gameOver = 1;
+	}
+	
+}

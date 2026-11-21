@@ -56,3 +56,12 @@ aleatorizador = function(){
 	}
 	
 }
+
+gameover = function(){
+	
+	if(global.velRua>= 0.07){
+		global.velRua = lerp(global.velRua, 0, .03);
+	}else{
+		global.velRua = 0;	
+	}	
+}

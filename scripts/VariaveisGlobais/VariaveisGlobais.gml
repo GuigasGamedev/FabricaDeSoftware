@@ -43,3 +43,5 @@ global.timerDecay = 1;
 //quantidade de checagens que um ciclo deve ter
 global.timerCicle = 10;
 global.cicleAtual = global.timerCicle;
+
+global.gameOver = 0;

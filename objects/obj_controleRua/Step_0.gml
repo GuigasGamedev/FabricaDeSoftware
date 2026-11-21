@@ -4,12 +4,9 @@ if(scroll >= spriteW - (spriteW/2)){	//se posicao maior que width da sprite
     scroll -= spriteW;		//posicao menos width
 }
 
-if(keyboard_check_pressed(ord("L"))){
-
-	criaLayout(0);
-	
+if(!global.gameOver){
+	aleatorizador();
+}else{
+	gameover();	
 }
-
-aleatorizador();
-
 //show_debug_message(global.velRua);

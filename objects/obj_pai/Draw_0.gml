@@ -1,1 +1,1 @@
-draw_sprite(sprite, 0, scroll, y);
+draw_sprite_ext(sprite, 0, scroll, draw_y, 1, 1, 0, c_white, alfa);
