@@ -22,3 +22,10 @@ draw_sprite_ext(spr_hpBorda, 0, 90, 40, 1, 1, 0, c_white, 1);
 
 //Desenhando moedas coletadas
 
+var _telaW = display_get_width();
+var _xMoeda = _telaW - 750;
+
+//show_debug_message(_xMoeda);
+
+draw_sprite_ext(spr_moedaPH, 0, _xMoeda, 50, .8, .8, 0, c_white, 1);
+draw_text(_xMoeda+40, 50, "X "+string(moedas));

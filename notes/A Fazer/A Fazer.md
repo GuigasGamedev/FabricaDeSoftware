@@ -9,24 +9,17 @@ gerador de power ups - Feito
 gerador de moedas - Feito
 aleatorizar obstaculos - Feito
 Sistema de dano (com iframes) - Feito
-Ajustar geraçao e velocidade, etc - Feito eu acho
+Ajustar geraçao e velocidade, etc - Feito
 
 
 Sprint2:
-
-Ajustar o codigo pra deixar mais simples - Nao sei se precisa, Deixa o jogo menos otimizado, mas ao mesmo tempo
-deixa ele pronto pra novas atualizações
-
 Fazer o upgrade - Feito
-
-Opções de controle - se der tempo
-
 Sprites - Fazer uma lista de sprites
 Efeito paralax no fundo
-gerador de layouts - Se der tempo
 menu
 Tela de morte e pontuação final
 salvamento de progresso com json - Só o highscore
+arrumar fontes
 
 Sprint3:
 

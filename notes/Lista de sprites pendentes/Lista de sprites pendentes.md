@@ -39,8 +39,8 @@ Particulas{
 UI talvez{
 
 	Vida - Feita
-	Duração do upgrade
-	Moedas coletadas
+	Duração do upgrade - Nao acho que precisa
+	Moedas coletadas - Feito
 
 }
 
