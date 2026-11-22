@@ -8,6 +8,9 @@ yOrig = [room_height - (spriteH[0]/2), room_height - (spriteH[1]/2), room_height
 
 //definnindo controles de velocidade iniciais
 scroll = 0;
+scrollF1 = 0;
+scrollF2 = 0;
+scrollF3 = 0;
 
 
 //controle de objetos

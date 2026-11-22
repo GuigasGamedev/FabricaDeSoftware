@@ -21,6 +21,8 @@ Tela de morte e pontuação final
 salvamento de progresso com json - Só o highscore
 arrumar fontes
 
+Resolver "Tremida" da rua
+
 Sprint3:
 
 iniciar a fase com o player fora da tela
