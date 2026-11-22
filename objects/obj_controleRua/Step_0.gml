@@ -33,8 +33,10 @@ if(scrollF3 >= spriteW[3] - (spriteW[3]/2)){	//se posicao maior que width da spr
 }
 
 
-if(!global.gameOver and !global.inicioJogo){
-	aleatorizador();
+if(!global.gameOver){
+	if(!global.inicioJogo){
+		aleatorizador();
+	}
 }else{
 	gameover();	
 }

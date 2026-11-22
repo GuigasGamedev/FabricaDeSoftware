@@ -8,7 +8,9 @@ indexP = 1
 xOrig = 300;
 yOrig = global.posicoesY[indexP];
 
-x = xOrig;
+x = 0 - sprite_width/2;
+inicioTimer = 80;
+
 y = yOrig;
 velTrans = .2;
 xscale = 1;
@@ -27,6 +29,21 @@ iframe = 120;
 iframeCount = iframe;
 fade = 1;
 fadeVel = .1;
+
+iniciaJogo = function(){
+
+	if(inicioTimer>=0){
+		inicioTimer--;
+	}
+	if(inicioTimer<=0){
+		x = lerp(x, xOrig, .1);
+		if((xOrig-x) < .2){
+			x = xOrig;
+			global.inicioJogo = 0;
+		}
+	}
+	
+}
 
 controle = function(){
 
