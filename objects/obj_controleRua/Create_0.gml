@@ -1,10 +1,10 @@
 //defnindo parametros
 sprite = global.fase1Spr[0];
-spriteFundo = [spr_fundo1];
-spriteW = sprite_get_width(sprite);
-spriteH = sprite_get_height(sprite);
+spriteFundo = [spr_fundo1, spr_fundo2, spr_fundo3];
+spriteW = [sprite_get_width(sprite), sprite_get_width(spriteFundo[0]), sprite_get_width(spriteFundo[1]), sprite_get_width(spriteFundo[2])];
+spriteH = [sprite_get_height(sprite), sprite_get_height(spriteFundo[0]), sprite_get_height(spriteFundo[1]), sprite_get_height(spriteFundo[2])];
 
-yOrig = room_height - (spriteH/2);
+yOrig = [room_height - (spriteH[0]/2), room_height - (spriteH[1]/2), room_height - (spriteH[2]/2), room_height - (spriteH[3]/2)];
 
 //definnindo controles de velocidade iniciais
 scroll = 0;

@@ -55,6 +55,7 @@
     {"id":{"name":"spr_comRuimPH","path":"sprites/spr_comRuimPH/spr_comRuimPH.yy",},},
     {"id":{"name":"spr_fundo1","path":"sprites/spr_fundo1/spr_fundo1.yy",},},
     {"id":{"name":"spr_fundo2","path":"sprites/spr_fundo2/spr_fundo2.yy",},},
+    {"id":{"name":"spr_fundo3","path":"sprites/spr_fundo3/spr_fundo3.yy",},},
     {"id":{"name":"spr_hpBarra","path":"sprites/spr_hpBarra/spr_hpBarra.yy",},},
     {"id":{"name":"spr_hpBorda","path":"sprites/spr_hpBorda/spr_hpBorda.yy",},},
     {"id":{"name":"spr_moedaPH","path":"sprites/spr_moedaPH/spr_moedaPH.yy",},},

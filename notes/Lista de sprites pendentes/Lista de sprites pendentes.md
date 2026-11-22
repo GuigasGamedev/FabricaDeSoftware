@@ -36,7 +36,7 @@ Particulas{
 
 }
 
-UI talvez{
+UI{ Feito
 
 	Vida - Feita
 	Duração do upgrade - Nao acho que precisa

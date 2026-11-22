@@ -1,7 +1,8 @@
 scroll += global.velRua;	
 
-if(scroll >= spriteW - (spriteW/2)){	//se posicao maior que width da sprite
-   scroll -= spriteW;		//posicao menos width
+//Rua
+if(scroll >= spriteW[0]){	//se posicao maior que width da sprite
+   scroll -= spriteW[0];		//posicao menos width
 }
 
 if(!global.gameOver){
@@ -9,4 +10,4 @@ if(!global.gameOver){
 }else{
 	gameover();	
 }
-//show_debug_message(global.velRua);
+show_debug_message(global.velRua);
