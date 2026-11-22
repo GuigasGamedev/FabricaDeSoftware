@@ -9,10 +9,10 @@ Passaros talves
 
 Objetos{Feitos
 
-Chocolate
-Cenoura
+Chocolate - Feito
+Cenoura - Feito
 Moeda - Feito
-Upgrade
+Upgrade - Feito
 Carros e caminhões - Feitos
 
 

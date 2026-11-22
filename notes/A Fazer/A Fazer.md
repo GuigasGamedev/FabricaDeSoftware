@@ -28,12 +28,26 @@ Resolver "Tremida" da rua
 
 Sprint3:
 
-iniciar a fase com o player fora da tela
-particulas
-gamefeel
-Tela escura durante power up
-aproximar a camera
+iniciar a fase com o player fora da tela - Feito
+particulas{
+Personagem andando
+Fumaça caminhao
+"Aura" de itens
+Coleta de itens{
+		Moeda
+		ComBoa
+		ComRuim
+		PowerUp
+		Caminhao
+	}
+}
+gamefeel{
 movimentação com lerp - Feito
 xscale e ysxcale na movimentacao
+Tela escura durante power up
 Tremer a tela com colisao
+Tremer barra de vida com dano
 Hitstop com colisao
+}
+
+aproximar a camera - Nao sei se precisa
