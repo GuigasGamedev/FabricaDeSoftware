@@ -1,5 +1,6 @@
 //defnindo parametros
 sprite = global.fase1Spr[0];
+spriteFundo = [spr_fundo1];
 spriteW = sprite_get_width(sprite);
 spriteH = sprite_get_height(sprite);
 

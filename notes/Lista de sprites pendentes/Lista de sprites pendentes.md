@@ -1,19 +1,20 @@
-Fundo{
+Fundo{Feito
 
-Fundo com prédios
-Horizonte
-Nuvens
+Fundo com prédios - Feito
+Horizonte - Feito
+Nuvens - Feito
 Passaros talves
 
 }
 
-Objetos{
+Objetos{Feitos
 
 Chocolate
 Cenoura
-Moeda
+Moeda - Feito
 Upgrade
-Carros e caminhões
+Carros e caminhões - Feitos
+
 
 }
 
@@ -37,7 +38,7 @@ Particulas{
 
 UI talvez{
 
-	Vida
+	Vida - Feita
 	Duração do upgrade
 	Moedas coletadas
 
