@@ -9,7 +9,8 @@ yOrig = [room_height - (spriteH[0]/2), room_height - (spriteH[1]/2), room_height
 //definnindo controles de velocidade iniciais
 scroll = 0;
 scrollF1 = 0;
-scrollF2 = 0;
+scrollF2 = room_width+spriteW[2]/2;
+nuvemSubmg = 0;
 scrollF3 = 0;
 
 
@@ -35,8 +36,6 @@ aleatorizador = function(){
 			
 			if(_rng <= _req){
 			
-				//Atualizar esse valor quando adicionar mais coisas
-				//fazer um gerado melhor baseado em dificuldade
 				var _obj = irandom_range(0, 4);
 				criaObjeto(_obj);
 			

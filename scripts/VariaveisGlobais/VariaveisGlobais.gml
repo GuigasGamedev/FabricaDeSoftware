@@ -44,4 +44,5 @@ global.timerDecay = 1;
 global.timerCicle = 10;
 global.cicleAtual = global.timerCicle;
 
+global.inicioJogo = 1;
 global.gameOver = 0;

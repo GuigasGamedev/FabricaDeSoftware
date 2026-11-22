@@ -15,7 +15,10 @@ Ajustar geraçao e velocidade, etc - Feito
 Sprint2:
 Fazer o upgrade - Feito
 Sprites - Fazer uma lista de sprites
-Efeito paralax no fundo
+Efeito paralax no fundo - Feito
+
+
+
 menu
 Tela de morte e pontuação final
 salvamento de progresso com json - Só o highscore
@@ -26,7 +29,9 @@ Resolver "Tremida" da rua
 Sprint3:
 
 iniciar a fase com o player fora da tela
-particulas e gamefeel
+particulas
+gamefeel
+Tela escura durante power up
 aproximar a camera
 movimentação com lerp - Feito
 xscale e ysxcale na movimentacao
