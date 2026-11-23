@@ -1,7 +1,11 @@
 if(!coletado){
-	scroll -= global.velRua; 
-	x -= global.velRua;
-
+	if(!tipo){
+		scroll -= global.velRua + 3; 
+		x -= global.velRua + 3;
+	}else{
+		scroll -= global.velRua; 
+		x -= global.velRua;
+	}
 	checaColisao();
 }else{
 
@@ -22,6 +26,8 @@ if(tipo>0){
 if(global.gameOver){
 	sumindoGameOver();	
 }
+
+show_debug_message(global.velRua);
 
 if(x <= 0 - (spriteW / 2) - 20){
 	//show_debug_message("fui Destruido");

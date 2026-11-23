@@ -40,7 +40,12 @@ aleatorizador = function(){
 				criaObjeto(_obj);
 			
 				if(global.cicleAtual <= 0){
-					global.randTimer--;
+					if(obj_player.moedas>global.limite){
+						if(global.randTimer>30){
+							global.randTimer--;
+							global.limite += global.limite;
+						}
+					}
 					global.cicleAtual = global.timerCicle;
 				
 				}

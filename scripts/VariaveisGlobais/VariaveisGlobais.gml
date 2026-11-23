@@ -28,7 +28,8 @@ global.posicoesY = [_pos1, _pos2, _pos3];
 global.velRua = 10;
 global.velPonto = 10;
 global.velIncrease = 1;
-global.velVariavel = 10;
+global.velVariavel = 4;
+global.velPU = 10;
 
 //A aleatoriedade funciona da seguinte maneira:
 
@@ -45,6 +46,7 @@ global.timerDecay = 1;
 //quantidade de checagens que um ciclo deve ter
 global.timerCicle = 10;
 global.cicleAtual = global.timerCicle;
+global.limite = 1000;
 
 //Variaveis de controle geral
 global.inicioJogo = 1;

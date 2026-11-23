@@ -33,6 +33,9 @@ invencivelPU = 0;
 PUTimermax = 10*60;
 PUTimer = 0;
 PowerUpON = 0;
+velSave = 0;
+PUstopTimeMax = 30;
+PUstopTime = PUstopTimeMax;
 invencivel = 0;
 dano = 0;
 iframe = 120;
@@ -138,13 +141,21 @@ powerUp = function(){
 	
 	if(PowerUpON){
 		
+		
 		if(!invencivelPU){
 			invencivelPU = 1;
 			PUTimer = PUTimermax;
 			obj_invencivelTP.inverterValores();
 			global.spritePlayer = spr_player2;
-			global.velRua += global.velVariavel;
+			velSave = global.velRua;
 		}else{
+			
+			if(PUstopTime>0){
+				PUstopTime--;
+				global.velRua = lerp(global.velRua, 0, .3);	
+			}else{
+				global.velRua = velSave+global.velPU;
+			}
 		
 			if(PUTimer>0){
 				PUTimer--;
@@ -159,10 +170,11 @@ powerUp = function(){
 				if(!PUTimer){
 					obj_invencivelTP.inverterValores();
 					PUTimer = 0;
+					PUstopTime = PUstopTimeMax;
 					invencivelPU = 0;
 					PowerUpON = 0;
 					global.spritePlayer = spr_playerPH;
-					global.velRua -= global.velVariavel;
+					global.velRua -= global.velPU;
 				}
 			}
 			

@@ -57,6 +57,20 @@ Toques Finais
 sprite player - Feito
 efeito powerup - Feito
 Sons
-Imagens do Menu
+Imagens do Menu - Feito
 
 Resolver "Tremida" da rua
+
+Melhorias{
+
+	Melhorar as cores das sprites
+	Fazer mais particulas{
+	
+	
+	}
+	Fazer "impact frames"
+	Melhorar o menu
+	Menu de opções
+	SIstema de dia e noite
+
+}
