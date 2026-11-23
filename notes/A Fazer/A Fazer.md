@@ -69,6 +69,9 @@ Melhorias{
 	
 	}
 	Fazer "impact frames"
+	Fazer screenshake quando coletar coisas com o power up ligado
+	Fazer power up recuperar a vida toda - feito
+	Fazer efeito de movimento no player (tanto para cima e para baixo, quanto para "frente"
 	Melhorar o menu
 	Menu de opções
 	SIstema de dia e noite

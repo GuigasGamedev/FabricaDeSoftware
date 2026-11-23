@@ -144,6 +144,7 @@ powerUp = function(){
 		
 		if(!invencivelPU){
 			invencivelPU = 1;
+			vida = vidaInicial;
 			PUTimer = PUTimermax;
 			obj_invencivelTP.inverterValores();
 			global.spritePlayer = spr_player2;
