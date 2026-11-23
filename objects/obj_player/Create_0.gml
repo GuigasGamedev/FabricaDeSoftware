@@ -69,8 +69,8 @@ particulasPlayer = function(_tipo){
 
 controle = function(){
 	
-	var _distX = 3;
-	var _distY = .3;
+	var _distX = 1.5;
+	var _distY = .5;
 	
 	var _cima = keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_up);
 	var _baixo = keyboard_check_pressed(ord("S")) or keyboard_check_pressed(vk_down);
@@ -142,15 +142,25 @@ powerUp = function(){
 			invencivelPU = 1;
 			PUTimer = PUTimermax;
 			obj_invencivelTP.inverterValores();
+			global.spritePlayer = spr_player2;
 		}else{
 		
 			if(PUTimer>0){
 				PUTimer--;
+				
+				var _xOff = random_range(-100, 100);
+				var _yOff = random_range(-100, 100);
+				
+				if(!(PUTimer mod 10)){
+					instance_create_layer(x+_xOff, y+_yOff, "Player", obj_coleta1);	
+				}
+				
 				if(!PUTimer){
 					obj_invencivelTP.inverterValores();
 					PUTimer = 0;
 					invencivelPU = 0;
 					PowerUpON = 0;
+					global.spritePlayer = spr_playerPH;
 				}
 			}
 			

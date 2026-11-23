@@ -19,7 +19,7 @@ Efeito paralax no fundo - Feito
 
 
 
-menu - Feito (falta as imagens)
+menu - Feito
 Tela de morte e pontuação final - Feito
 salvamento de progresso com json - Só o highscore - Feito
 arrumar fontes{
@@ -29,11 +29,6 @@ arrumar fontes{
 	Menu - Feito
 
 }
-
-sprite player
-efeito powerup
-
-Resolver "Tremida" da rua
 
 Sprint3:
 
@@ -56,3 +51,12 @@ xscale e ysxcale na movimentacao - Feito
 Tela escura durante power up - Feito
 Tremer a tela com colisao - Feito
 }
+
+Toques Finais
+
+sprite player - Feito
+efeito powerup - Feito
+Sons
+Imagens do Menu
+
+Resolver "Tremida" da rua

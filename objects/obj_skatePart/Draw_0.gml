@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_fumaca, 0, xDraw, yDraw,tamanho, tamanho, rot, c_white, alfa);

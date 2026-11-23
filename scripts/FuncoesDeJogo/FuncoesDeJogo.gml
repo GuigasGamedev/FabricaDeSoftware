@@ -41,15 +41,15 @@ function criaObjeto(_case){
 		break;
 		case(4):
 		
-			//var _cria = irandom_range(0, 10);
+			var _cria = irandom_range(0, 10);
 			
-			//if(!_cria){
+			if(!_cria){
 				global.spriteObj = spr_powerUpPH;
 			
 				var _powerUp = instance_create_layer(0, 0, "Obstaculo", obj_powerUp);
 				_powerUp.y = global.posicoesY[geraLane()];
 				_powerUp.draw_y = _powerUp.y;
-			//}
+			}
 		break;
 	}
 

@@ -1,7 +1,5 @@
 Player{
 
-	Corrida
-	Morte
 	Colisao
 	Power up
 
@@ -13,18 +11,20 @@ Coletas{
 	Comida boa
 	Comida ruim
 	Power up
+	Caminhao
 
 }
 
 Ambiente{
 
-	Carros e caminhoes
+	caminhoes
 	Power up
 
 }
 
 Ui geral
 
+hovers e clicks
 
 Musica de menu e musica de gameplay
 
