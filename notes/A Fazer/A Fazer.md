@@ -43,7 +43,7 @@ Coleta de itens{
 }
 gamefeel{
 movimentação com lerp - Feito
-xscale e ysxcale na movimentacao
+xscale e ysxcale na movimentacao - Feito
 Tela escura durante power up
 Tremer a tela com colisao
 Tremer barra de vida com dano

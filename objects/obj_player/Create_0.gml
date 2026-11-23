@@ -136,11 +136,13 @@ powerUp = function(){
 		if(!invencivelPU){
 			invencivelPU = 1;
 			PUTimer = PUTimermax;
+			obj_invencivelTP.inverterValores();
 		}else{
 		
 			if(PUTimer>0){
 				PUTimer--;
 				if(!PUTimer){
+					obj_invencivelTP.inverterValores();
 					PUTimer = 0;
 					invencivelPU = 0;
 					PowerUpON = 0;
