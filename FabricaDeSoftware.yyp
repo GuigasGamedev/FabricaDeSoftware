@@ -51,6 +51,7 @@
     {"id":{"name":"obj_coleta2","path":"objects/obj_coleta2/obj_coleta2.yy",},},
     {"id":{"name":"obj_comidaBoa","path":"objects/obj_comidaBoa/obj_comidaBoa.yy",},},
     {"id":{"name":"obj_comidaRuim","path":"objects/obj_comidaRuim/obj_comidaRuim.yy",},},
+    {"id":{"name":"obj_controlePontuacao","path":"objects/obj_controlePontuacao/obj_controlePontuacao.yy",},},
     {"id":{"name":"obj_controleRua","path":"objects/obj_controleRua/obj_controleRua.yy",},},
     {"id":{"name":"obj_dano","path":"objects/obj_dano/obj_dano.yy",},},
     {"id":{"name":"obj_invencivelTP","path":"objects/obj_invencivelTP/obj_invencivelTP.yy",},},
@@ -93,9 +94,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"roomId":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
     {"roomId":{"name":"Pontuacao","path":"rooms/Pontuacao/Pontuacao.yy",},},
+    {"roomId":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

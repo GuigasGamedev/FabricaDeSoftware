@@ -55,3 +55,23 @@ function criaObjeto(_case){
 
 }
 	
+	
+	
+function calculaPontuacao(){
+	return (global.moedas)+(global.cenouras*1)-(global.chocolates)-(global.caminhoes*2)+(global.caminhoesDestruidos*2)+(global.powerupsPegos*3);
+}
+
+function highscore_carregar() {
+    ini_open("save.ini");
+    var _hs = ini_read_real("jogo", "highscore", 0); // 0 se ainda não existir
+    ini_close();
+    return _hs;
+}
+
+function highscore_salvar(_valor) {
+    ini_open("save.ini");
+    ini_write_real("jogo", "highscore", _valor);
+    ini_close();
+}
+
+global.highscore = highscore_carregar();

@@ -63,6 +63,7 @@ checaColisao = function(){
 							if(obj_player.PowerUpON){
 							
 								obj_player.moedas += 100;
+								obj_player.caminhoesDestruidos++;
 								repeat(3){
 									coletaEfeito(0);	
 								}
@@ -74,6 +75,7 @@ checaColisao = function(){
 								obj_player.invencivel = 1;
 								obj_player.dano = 1;
 								obj_player.particulasPlayer(0);
+								obj_player.caminhoes++;
 								screen_shake(15);
 					
 							}
@@ -108,6 +110,7 @@ checaColisao = function(){
 								obj_player.moedas += 10;
 						
 							}
+							obj_player.cenouras++;
 							coletaEfeito(0);
 			
 					break;
@@ -121,6 +124,7 @@ checaColisao = function(){
 		
 							if(obj_player.vida > 0 and !obj_player.invencivel){
 								obj_player.vida -= valor;
+								obj_player.chocolates++;
 								screen_shake(5);
 							
 							}
@@ -137,6 +141,7 @@ checaColisao = function(){
 					break;
 					case(4):
 							obj_player.PowerUpON = 1;
+							obj_player.powerupsPegos++;
 							coletaEfeito(1);
 					break;
 		

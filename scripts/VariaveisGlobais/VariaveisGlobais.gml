@@ -26,6 +26,7 @@ global.posicoesY = [_pos1, _pos2, _pos3];
 
 //velocidade do jogo:
 global.velRua = 10;
+global.velPonto = 10;
 global.velIncrease = 1;
 
 //A aleatoriedade funciona da seguinte maneira:
@@ -44,7 +45,18 @@ global.timerDecay = 1;
 global.timerCicle = 10;
 global.cicleAtual = global.timerCicle;
 
+//Variaveis de controle geral
 global.inicioJogo = 1;
 global.gameOver = 0;
 global.roomDest = Jogo;
 global.AbrindoJogo = 1;
+
+//Variaveis para calculo de pontuação
+global.moedas = 0;
+global.cenouras = 0;
+global.chocolates = 0;
+global.caminhoes = 0;
+global.caminhoesDestruidos = 0;
+global.powerupsPegos = 0;
+
+global.pontuacao = 0;

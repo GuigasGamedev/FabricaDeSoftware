@@ -19,7 +19,7 @@ Efeito paralax no fundo - Feito
 
 
 
-menu
+menu - Feito (falta as imagens)
 Tela de morte e pontuação final
 salvamento de progresso com json - Só o highscore
 arrumar fontes{

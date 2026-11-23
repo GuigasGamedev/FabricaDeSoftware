@@ -23,6 +23,11 @@ yscale = yscaleOrig;
 alfa = 1;
 
 moedas = 0;
+cenouras = 0;
+chocolates = 0;
+caminhoes = 0;
+caminhoesDestruidos = 0;
+powerupsPegos = 0;
 
 invencivelPU = 0;
 PUTimermax = 10*60;
@@ -159,6 +164,21 @@ checaGameover = function(){
 
 	if(vida <= 0){
 		global.gameOver = 1;
+		
+		global.moedas = moedas;
+		global.cenouras = cenouras;
+		global.chocolates = chocolates;
+		global.caminhoes = caminhoes;
+		global.caminhoesDestruidos = caminhoesDestruidos;
+		global.powerupsPegos = powerupsPegos;
+		
+		global.pontuacao = calculaPontuacao();
+		
+		if (global.pontuacao > global.highscore) {
+		    global.highscore = global.pontuacao;
+		    highscore_salvar(global.highscore);
+		}
+		
 	}
 	
 }
