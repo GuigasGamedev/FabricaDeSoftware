@@ -33,7 +33,7 @@
 	
 if(tela_de_titulo){
 	
-	draw_sprite_ext(_titImg, 0, _xTit, _yTit, 1, 1, 0, c_white, alfaTitulo);
+	draw_sprite_ext(_titImg, 0, _xTit, _yTit, .5, .5, 0, c_white, alfaTitulo);
 	draw_set_font(fnt_fonteMoedas);
 	draw_set_halign(fa_middle);
 	draw_text_transformed_colour(_xTit, _yTit + 250, _titText, .8, .8, 0, _corMenu, _corMenu, _corSecund, _corSecund, alfaTitulo);

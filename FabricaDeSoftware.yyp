@@ -99,9 +99,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Pontuacao","path":"rooms/Pontuacao/Pontuacao.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
-    {"roomId":{"name":"Pontuacao","path":"rooms/Pontuacao/Pontuacao.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
