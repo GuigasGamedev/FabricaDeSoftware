@@ -74,4 +74,5 @@ function highscore_salvar(_valor) {
     ini_close();
 }
 
+//highscore_salvar(0);
 global.highscore = highscore_carregar();

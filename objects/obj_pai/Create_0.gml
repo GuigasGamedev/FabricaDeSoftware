@@ -76,6 +76,7 @@ checaColisao = function(){
 								obj_player.dano = 1;
 								obj_player.particulasPlayer(0);
 								obj_player.caminhoes++;
+								global.velRua -= global.velVariavel;
 								screen_shake(15);
 					
 							}
@@ -125,6 +126,7 @@ checaColisao = function(){
 							if(obj_player.vida > 0 and !obj_player.invencivel){
 								obj_player.vida -= valor;
 								obj_player.chocolates++;
+								global.velRua -= global.velVariavel/2;
 								screen_shake(5);
 							
 							}

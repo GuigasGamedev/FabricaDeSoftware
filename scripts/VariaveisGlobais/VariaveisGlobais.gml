@@ -28,6 +28,7 @@ global.posicoesY = [_pos1, _pos2, _pos3];
 global.velRua = 10;
 global.velPonto = 10;
 global.velIncrease = 1;
+global.velVariavel = 10;
 
 //A aleatoriedade funciona da seguinte maneira:
 

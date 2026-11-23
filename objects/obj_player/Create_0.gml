@@ -143,6 +143,7 @@ powerUp = function(){
 			PUTimer = PUTimermax;
 			obj_invencivelTP.inverterValores();
 			global.spritePlayer = spr_player2;
+			global.velRua += global.velVariavel;
 		}else{
 		
 			if(PUTimer>0){
@@ -161,6 +162,7 @@ powerUp = function(){
 					invencivelPU = 0;
 					PowerUpON = 0;
 					global.spritePlayer = spr_playerPH;
+					global.velRua -= global.velVariavel;
 				}
 			}
 			
