@@ -13,8 +13,13 @@ inicioTimer = 80;
 
 y = yOrig;
 velTrans = .2;
-xscale = 1;
-yscale = 1;
+
+xscaleOrig = 1;
+yscaleOrig = 1;
+
+xscale = xscaleOrig;
+yscale = yscaleOrig;
+
 alfa = 1;
 
 moedas = 0;
@@ -44,20 +49,39 @@ iniciaJogo = function(){
 	}
 	
 }
+	
+particulasPlayer = function(_tipo){
+	switch(_tipo){
+		case(0):
+			repeat(10){
+				var _randomX = random_range(-50, 50);
+				var _randomY = random_range(-50, 50);
+				instance_create_layer(x+_randomX, y+_randomY, "Obstaculo", obj_dano);	
+			}
+		break;	
+	}
+}
 
 controle = function(){
-
+	
+	var _distX = 3;
+	var _distY = .3;
+	
 	var _cima = keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_up);
 	var _baixo = keyboard_check_pressed(ord("S")) or keyboard_check_pressed(vk_down);
 	
 	if(_baixo){
 		if( !((indexP - 1) < 0) ){
 			indexP--;	
+			xscale = _distX;
+			yscale = _distY;
 		}
 	}
 	if(_cima){
 		if( !((indexP + 1) > 2) ){
 			indexP++;	
+			xscale = _distX;
+			yscale = _distY;
 		}
 	}
 	

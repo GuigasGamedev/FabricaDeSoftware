@@ -1,10 +1,22 @@
-scroll -= global.velRua; 
-x -= global.velRua;
+if(!coletado){
+	scroll -= global.velRua; 
+	x -= global.velRua;
 
-checaColisao();
+	checaColisao();
+}else{
+
+	alfa-=.1;
+	if(alfa<.1){
+		instance_destroy(id);	
+	}
+	
+}
+
+rotacao +=.5;
 
 if(tipo>0){
-	
+	constante++;
+	draw_y -= sin(constante/20);
 }
 
 if(global.gameOver){

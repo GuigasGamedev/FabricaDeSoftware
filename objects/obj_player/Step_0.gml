@@ -6,4 +6,7 @@ if(global.inicioJogo){
 	powerUp();
 }
 
+xscale = lerp(xscale, xscaleOrig, .2);
+yscale = lerp(yscale, yscaleOrig, .2);
+
 checaGameover();

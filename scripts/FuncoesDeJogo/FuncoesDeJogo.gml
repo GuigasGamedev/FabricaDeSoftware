@@ -54,3 +54,4 @@ function criaObjeto(_case){
 	}
 
 }
+	

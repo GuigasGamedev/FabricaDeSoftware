@@ -30,15 +30,15 @@ Sprint3:
 
 iniciar a fase com o player fora da tela - Feito
 particulas{
-Personagem andando
-Fumaça caminhao
-"Aura" de itens
+Personagem andando - avaliar
+Fumaça caminhao - Feito
+"Aura" de itens - Feito
 Coleta de itens{
-		Moeda
-		ComBoa
-		ComRuim
-		PowerUp
-		Caminhao
+		Moeda - Feito
+		ComBoa - Feito
+		ComRuim - Feito
+		PowerUp - Feito
+		Caminhao - Feito
 	}
 }
 gamefeel{
