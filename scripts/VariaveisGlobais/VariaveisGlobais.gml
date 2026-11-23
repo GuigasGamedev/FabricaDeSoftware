@@ -46,3 +46,5 @@ global.cicleAtual = global.timerCicle;
 
 global.inicioJogo = 1;
 global.gameOver = 0;
+global.roomDest = Jogo;
+global.AbrindoJogo = 1;

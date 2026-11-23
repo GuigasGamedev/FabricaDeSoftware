@@ -1,9 +1,9 @@
 	//x e y iniciais dos textos
 	var _x1			= 100;
-	var _y1			= 170;
+	var _y1			= 300;
 	
 	//variaves para desnhar as opções
-	var _fonteMenu			= fontMenu_fnt;
+	var _fonteMenu			= fnt_fonteMoedas;
 	var _corMenu			= c_white;
 	var _corSecund			= c_ltgray;
 	var _corSelec			= c_red;
@@ -13,7 +13,7 @@
 	var _alinhamentoHTitulo	= fa_middle;
 	
 	//distancia entre cada opção
-	var _marg		= 80;
+	var _marg		= 120;
 	
 	//coordenadas do mouse
 	var _mouseX		= device_mouse_x_to_gui(0);
@@ -34,17 +34,19 @@
 if(tela_de_titulo){
 	
 	draw_sprite_ext(_titImg, 0, _xTit, _yTit, 1, 1, 0, c_white, alfaTitulo);
-	funcoesTexto(_fonteMenu, _corMenu, _alinhamentoVMenu, _alinhamentoHTitulo);
-	draw_text_transformed_colour(_xTit, _yTit + 250, _titText, 1, 1, 0, _corMenu, _corMenu, _corSecund, _corSecund, alfaTitulo);
-	zeraTexto();
-	
+	draw_set_font(fnt_fonteMoedas);
+	draw_set_halign(fa_middle);
+	draw_text_transformed_colour(_xTit, _yTit + 250, _titText, .8, .8, 0, _corMenu, _corMenu, _corSecund, _corSecund, alfaTitulo);
+	draw_set_font(0);
+	draw_set_halign(0);
 }
 
 //checa se a tela está no menu principal
 if(menuPrincipal){
 
 	//definindo as configurações de texto
-	funcoesTexto(_fonteMenu, _corMenu, _alinhamentoVMenu, _alinhamentoHMenu);
+	funcoesTexto(_fonteMenu, _corMenu, fa_middle, fa_left);
+	
 	
 	//for para escrever cada opção
 	for(var _i = 0; _i < n_opcoes; _i++){
@@ -72,40 +74,14 @@ if(menuPrincipal){
 			//checando o botao esquerdo do mouse para selecionar uma opcao
 			if(mouse_check_button_pressed(mb_left)){
 				switch(index){
-					case 0:	//Nova Vida
+					case 0:	//Jogar
 						
 						desaparecendoMenu = 1;
-						if(!instance_exists(TransicaoDia_obj)){
-							var _transic = instance_create_layer(x, y, "Transicao", TransicaoDia_obj);	
-							_transic.inicioJogo = 1;
-						}
+							var _transic = instance_create_layer(x, y, "Transicao", Transicao_obj);	
+							global.roomDest = Jogo;
 					
 					break;
-					case 1:	//Continuar
-					
-						show_message("Continuar");
-					
-					break;
-					case 2:	//Opcoes
-					
-						desaparecendoMenu = 1;
-						transicao(Opcoes, 1);
-						
-					
-					break;
-					case 3:	//Extras
-					
-						desaparecendoMenu = 1;
-						transicao(Extras, 1);
-					
-					break;
-					case 4:	//Créditos
-					
-						desaparecendoMenu = 1;
-						transicao(Creditos, 1);
-					
-					break;
-					case 5:	//Sair
+					case 1:	//Sair
 					
 						game_end();
 					
