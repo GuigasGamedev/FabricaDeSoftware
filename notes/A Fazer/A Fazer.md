@@ -22,7 +22,16 @@ Efeito paralax no fundo - Feito
 menu
 Tela de morte e pontuação final
 salvamento de progresso com json - Só o highscore
-arrumar fontes
+arrumar fontes{
+
+	Moeda - Feito
+	Highscore
+	Menu
+
+}
+
+sprite player
+efeito powerup
 
 Resolver "Tremida" da rua
 
@@ -44,10 +53,6 @@ Coleta de itens{
 gamefeel{
 movimentação com lerp - Feito
 xscale e ysxcale na movimentacao - Feito
-Tela escura durante power up
-Tremer a tela com colisao
-Tremer barra de vida com dano
-Hitstop com colisao
+Tela escura durante power up - Feito
+Tremer a tela com colisao - Feito
 }
-
-aproximar a camera - Nao sei se precisa

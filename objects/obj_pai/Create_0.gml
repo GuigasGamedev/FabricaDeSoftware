@@ -74,6 +74,7 @@ checaColisao = function(){
 								obj_player.invencivel = 1;
 								obj_player.dano = 1;
 								obj_player.particulasPlayer(0);
+								screen_shake(15);
 					
 							}
 			
@@ -84,6 +85,7 @@ checaColisao = function(){
 							
 								if(obj_player.vida + valor >= 100){
 									obj_player.vida = 100;	
+										obj_player.moedas += 5;
 								
 									if(obj_player.PowerUpON){
 								
@@ -119,6 +121,7 @@ checaColisao = function(){
 		
 							if(obj_player.vida > 0 and !obj_player.invencivel){
 								obj_player.vida -= valor;
+								screen_shake(5);
 							
 							}
 							coletaEfeito(2);
@@ -133,10 +136,8 @@ checaColisao = function(){
 			
 					break;
 					case(4):
-			
 							obj_player.PowerUpON = 1;
 							coletaEfeito(1);
-						//decidir depois o que vai fazer aqui (mas vai ter mais alem desses)
 					break;
 		
 				}

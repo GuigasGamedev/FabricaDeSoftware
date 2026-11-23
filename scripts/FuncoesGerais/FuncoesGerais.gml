@@ -31,3 +31,9 @@ function geraLane(){
 	return _index;
 	
 }
+
+function screen_shake(_forca) {
+    with (obj_screenShake) {
+        shake = max(shake, _forca); // não reduz um tremor mais forte que já esteja rodando
+    }
+}
