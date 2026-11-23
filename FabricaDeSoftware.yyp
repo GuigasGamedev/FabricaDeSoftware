@@ -39,6 +39,7 @@
   },
   "name":"FabricaDeSoftware",
   "resources":[
+    {"id":{"name":"fnt_fonteMenor","path":"fonts/fnt_fonteMenor/fnt_fonteMenor.yy",},},
     {"id":{"name":"fnt_fonteMoedas","path":"fonts/fnt_fonteMoedas/fnt_fonteMoedas.yy",},},
     {"id":{"name":"A Fazer","path":"notes/A Fazer/A Fazer.yy",},},
     {"id":{"name":"Audios","path":"notes/Audios/Audios.yy",},},
@@ -94,9 +95,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Pontuacao","path":"rooms/Pontuacao/Pontuacao.yy",},},
     {"roomId":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -62,9 +62,11 @@ aleatorizador = function(){
 
 gameover = function(){
 	
-	if(global.velRua>= 0.07){
+	if(global.velRua>= 0.1){
 		global.velRua = lerp(global.velRua, 0, .03);
 	}else{
 		global.velRua = 0;	
+		var _transic = instance_create_layer(x, y, "Transicao", Transicao_obj);	
+		global.roomDest = Pontuacao;
 	}	
 }

@@ -1,3 +1,8 @@
+const++;
+
+fimScale+=sin(const/15)/40;
+
+
 scroll += global.velPonto;	
 round(scroll);
 
@@ -36,6 +41,3 @@ if(scrollF3 >= spriteW[3] - (spriteW[3]/2)){	//se posicao maior que width da spr
 show_debug_message(global.velRua);
 show_debug_message(scroll);
 */
-
-show_debug_message(global.pontuacao);
-show_debug_message(global.highscore);

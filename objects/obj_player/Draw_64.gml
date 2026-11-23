@@ -31,8 +31,8 @@ draw_sprite_ext(spr_moedaPH, 0, _xMoeda, 60, .7, .7, 0, c_white, 1);
 
 draw_set_font(fnt_fonteMoedas);
 draw_set_colour(c_black);
-draw_text(_xMoeda+50, 45, "X-"+string(moedas));
+draw_text(_xMoeda+50, 45, "X "+string(moedas));
 draw_set_colour(c_white);
-draw_text(_xMoeda+50, 40, "X-"+string(moedas));
+draw_text(_xMoeda+50, 40, "X "+string(moedas));
 draw_set_font(0);
 draw_set_colour(0);

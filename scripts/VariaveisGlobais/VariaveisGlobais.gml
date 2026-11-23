@@ -60,3 +60,4 @@ global.caminhoesDestruidos = 0;
 global.powerupsPegos = 0;
 
 global.pontuacao = 0;
+global.novo_recorde = 0;

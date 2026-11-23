@@ -12,3 +12,19 @@ scrollF1 = 0;
 scrollF2 = room_width+spriteW[2]/2;
 nuvemSubmg = 0;
 scrollF3 = 0;
+
+
+opcoes				= ["Jogar Novamente", "Menu"];
+index				= 0;
+
+//numero de opcoes
+n_opcoes			= array_length(opcoes);
+
+//esfeito stretch das opções
+xStretch = 0;
+yStretch = 0;
+
+fimScale = 1;
+
+
+const = 0;

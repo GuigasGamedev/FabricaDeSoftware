@@ -20,13 +20,13 @@ Efeito paralax no fundo - Feito
 
 
 menu - Feito (falta as imagens)
-Tela de morte e pontuação final
-salvamento de progresso com json - Só o highscore
+Tela de morte e pontuação final - Feito
+salvamento de progresso com json - Só o highscore - Feito
 arrumar fontes{
 
 	Moeda - Feito
-	Highscore
-	Menu
+	Highscore - Feito
+	Menu - Feito
 
 }
 

@@ -177,6 +177,7 @@ checaGameover = function(){
 		if (global.pontuacao > global.highscore) {
 		    global.highscore = global.pontuacao;
 		    highscore_salvar(global.highscore);
+			global.novo_recorde = 1;
 		}
 		
 	}
