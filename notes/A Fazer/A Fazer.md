@@ -63,12 +63,15 @@ Resolver "Tremida" da rua
 
 Melhorias{
 
-	Melhorar as cores das sprites
+	Melhorar as cores das sprites{
+		Melhorar cores da cenoura
+		Melhorar a "aura"
+		Trocar o chocolate por hamburguer
+	}
 	Fazer mais particulas{
 		Power up
 		Vagalumes
 		Poeira
-		
 	
 	}
 	Fazer "impact frames" - Feito
