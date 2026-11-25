@@ -67,6 +67,7 @@ Melhorias{
 		Melhorar cores da cenoura
 		Melhorar a "aura"
 		Trocar o chocolate por hamburguer
+		Melhorar os coletaveis (seguir o video do noneclass)
 	}
 	Fazer mais particulas{
 		Power up
@@ -75,12 +76,19 @@ Melhorias{
 	
 	}
 	Fazer "impact frames" - Feito
-	Fazer screenshake quando coletar coisas com o power up ligado
-	Barra de vide tremer quando estiver baixa
+	Fazer screenshake quando coletar coisas com o power up ligado - Feito
+	Barra de vide tremer quando estiver baixa - Feito
 	Fazer power up recuperar a vida toda - Feito
 	Fazer efeito de movimento no player (tanto para cima e para baixo, quanto para "frente"
 	Melhorar o menu
-	Menu de opções
-	SIstema de dia e noite
+	Menu de opções{
+		Controles(talvez)
+		Musica
+		Sons
+		Particulas
+		Ver como funciona vsync
+		
+	}
+	Sistema de dia e noite
 
 }

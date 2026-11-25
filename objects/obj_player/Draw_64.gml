@@ -12,12 +12,34 @@
 
 var _hpDraw = vida/2.65;
 
+var _xOrig = 90;
+var _yOrig = 40;
+
+if(vida < 50){
+	var _var = 1;
+}else{
+	var _var = 0;	
+}
+
+var _valor = 5;
+
+if(_var){
+	var _shakeVarX = random_range(-_valor, _valor);
+	var _shakeVarY = random_range(-_valor, _valor);
+}else{
+	var _shakeVarX = 0;	
+	var _shakeVarY = 0;	
+}
+
+var _xDraw = _xOrig+_shakeVarX;
+var _yDraw = _yOrig+_shakeVarY;
+
 if(vida<=0){
 	_hpDraw = 0;	
 }
 
-draw_sprite_ext(spr_hpBarra, 0, 90, 40, _hpDraw, 1, 0, c_white, 1);
-draw_sprite_ext(spr_hpBorda, 0, 90, 40, 1, 1, 0, c_white, 1);
+draw_sprite_ext(spr_hpBarra, 0, _xDraw, _yDraw, _hpDraw, 1, 0, c_white, 1);
+draw_sprite_ext(spr_hpBorda, 0, _xDraw, _yDraw, 1, 1, 0, c_white, 1);
 
 
 //Desenhando moedas coletadas

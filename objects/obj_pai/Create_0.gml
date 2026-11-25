@@ -64,6 +64,7 @@ checaColisao = function(){
 							
 								obj_player.moedas += 100;
 								obj_player.caminhoesDestruidos++;
+								screen_shake(7);
 								instance_create_layer(x, y, "impactFrame", obj_impactFrame);
 								repeat(3){
 									coletaEfeito(0);	
@@ -96,6 +97,7 @@ checaColisao = function(){
 									if(obj_player.PowerUpON){
 								
 										obj_player.moedas += 10;
+										screen_shake(7);
 										instance_create_layer(x, y, "impactFrame", obj_impactFrame);
 								
 									}
@@ -124,6 +126,7 @@ checaColisao = function(){
 							if(obj_player.PowerUpON){
 								
 								obj_player.moedas += 20;
+								screen_shake(7);
 								instance_create_layer(x, y, "impactFrame", obj_impactFrame);
 								
 							}else
@@ -143,6 +146,7 @@ checaColisao = function(){
 					case(3):
 
 							if(obj_player.PowerUpON){
+								screen_shake(7);
 								instance_create_layer(x, y, "impactFrame", obj_impactFrame);	
 							}
 							obj_player.moedas++;
