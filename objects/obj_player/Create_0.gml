@@ -22,6 +22,9 @@ yscale = yscaleOrig;
 
 alfa = 1;
 
+intSombraMax = 5;
+intSombra = intSombraMax;
+
 moedas = 0;
 cenouras = 0;
 chocolates = 0;
@@ -60,13 +63,26 @@ iniciaJogo = function(){
 	
 particulasPlayer = function(_tipo){
 	switch(_tipo){
-		case(0):
+		case(0):	//Dano
 			repeat(10){
 				var _randomX = random_range(-50, 50);
 				var _randomY = random_range(-50, 50);
 				instance_create_layer(x+_randomX, y+_randomY, "Obstaculo", obj_dano);	
 			}
 		break;	
+		case(1):	//Sombra
+		
+			instance_create_layer(x, y, "Obstaculo", obj_sombraPart);
+		
+		break;
+		case(2):	//PowerUP
+		
+			var _xOff = random_range(-100, 100);
+			var _yOff = random_range(-100, 100);
+		
+			instance_create_layer(x+_xOff, y+_yOff, "Player", obj_coleta1);
+		
+		break;
 	}
 }
 
@@ -161,11 +177,8 @@ powerUp = function(){
 			if(PUTimer>0){
 				PUTimer--;
 				
-				var _xOff = random_range(-100, 100);
-				var _yOff = random_range(-100, 100);
-				
 				if(!(PUTimer mod 10)){
-					instance_create_layer(x+_xOff, y+_yOff, "Player", obj_coleta1);	
+					particulasPlayer(2);
 				}
 				
 				if(!PUTimer){

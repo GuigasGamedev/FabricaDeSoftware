@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_playerBranco, 0, x, y, 1, yScale, 0, color, alfa);

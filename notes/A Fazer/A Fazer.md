@@ -79,7 +79,7 @@ Melhorias{
 	Fazer screenshake quando coletar coisas com o power up ligado - Feito
 	Barra de vide tremer quando estiver baixa - Feito
 	Fazer power up recuperar a vida toda - Feito
-	Fazer efeito de movimento no player (tanto para cima e para baixo, quanto para "frente"
+	Fazer efeito de movimento no player (tanto para cima e para baixo, quanto para "frente" - Feito para frente
 	Melhorar o menu
 	Menu de opções{
 		Controles(talvez)

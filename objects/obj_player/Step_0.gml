@@ -1,9 +1,23 @@
 if(global.inicioJogo){
 	iniciaJogo();	
+	if(intSombra>0){
+		intSombra--;
+	}else{
+		particulasPlayer(1);
+		intSombra = intSombraMax;
+	}
 }else if(!global.gameOver){
 	controle();
 	checaInvencivel();
 	powerUp();
+	
+	if(intSombra>0){
+		intSombra--;
+	}else{
+		particulasPlayer(1);
+		intSombra = intSombraMax;
+	}
+	
 }
 
 if(!image_index){
