@@ -59,7 +59,7 @@ efeito powerup - Feito
 Sons
 Imagens do Menu - Feito
 
-Resolver "Tremida" da rua
+Resolver "Tremida" da rua - provavelmente é algo relacionado ao vsync
 
 Melhorias{
 
@@ -73,6 +73,7 @@ Melhorias{
 		Power up
 		Vagalumes
 		Poeira
+		itens soltando particulas
 	
 	}
 	Fazer "impact frames" - Feito
