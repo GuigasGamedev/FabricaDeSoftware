@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_impactFrame, 0, x, y, xScale, yScale, rotacao, c_white, alfa);

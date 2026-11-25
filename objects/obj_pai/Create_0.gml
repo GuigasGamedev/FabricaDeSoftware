@@ -64,6 +64,7 @@ checaColisao = function(){
 							
 								obj_player.moedas += 100;
 								obj_player.caminhoesDestruidos++;
+								instance_create_layer(x, y, "impactFrame", obj_impactFrame);
 								repeat(3){
 									coletaEfeito(0);	
 								}
@@ -95,6 +96,7 @@ checaColisao = function(){
 									if(obj_player.PowerUpON){
 								
 										obj_player.moedas += 10;
+										instance_create_layer(x, y, "impactFrame", obj_impactFrame);
 								
 									}
 								
@@ -122,6 +124,7 @@ checaColisao = function(){
 							if(obj_player.PowerUpON){
 								
 								obj_player.moedas += 20;
+								instance_create_layer(x, y, "impactFrame", obj_impactFrame);
 								
 							}else
 		
@@ -139,7 +142,9 @@ checaColisao = function(){
 					break;
 					case(3):
 
-					
+							if(obj_player.PowerUpON){
+								instance_create_layer(x, y, "impactFrame", obj_impactFrame);	
+							}
 							obj_player.moedas++;
 							coletaEfeito(0);
 						

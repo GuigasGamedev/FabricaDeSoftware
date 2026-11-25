@@ -65,12 +65,16 @@ Melhorias{
 
 	Melhorar as cores das sprites
 	Fazer mais particulas{
-	
+		Power up
+		Vagalumes
+		Poeira
+		
 	
 	}
-	Fazer "impact frames"
+	Fazer "impact frames" - Feito
 	Fazer screenshake quando coletar coisas com o power up ligado
-	Fazer power up recuperar a vida toda - feito
+	Barra de vide tremer quando estiver baixa
+	Fazer power up recuperar a vida toda - Feito
 	Fazer efeito de movimento no player (tanto para cima e para baixo, quanto para "frente"
 	Melhorar o menu
 	Menu de opções

@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.1.0.27",
+    "IDEVersion":"2026.1.1.34",
   },
   "name":"FabricaDeSoftware",
   "resources":[
@@ -55,6 +55,7 @@
     {"id":{"name":"obj_controlePontuacao","path":"objects/obj_controlePontuacao/obj_controlePontuacao.yy",},},
     {"id":{"name":"obj_controleRua","path":"objects/obj_controleRua/obj_controleRua.yy",},},
     {"id":{"name":"obj_dano","path":"objects/obj_dano/obj_dano.yy",},},
+    {"id":{"name":"obj_impactFrame","path":"objects/obj_impactFrame/obj_impactFrame.yy",},},
     {"id":{"name":"obj_invencivelTP","path":"objects/obj_invencivelTP/obj_invencivelTP.yy",},},
     {"id":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},},
     {"id":{"name":"obj_obstaculo","path":"objects/obj_obstaculo/obj_obstaculo.yy",},},
@@ -86,6 +87,7 @@
     {"id":{"name":"spr_fundo3","path":"sprites/spr_fundo3/spr_fundo3.yy",},},
     {"id":{"name":"spr_hpBarra","path":"sprites/spr_hpBarra/spr_hpBarra.yy",},},
     {"id":{"name":"spr_hpBorda","path":"sprites/spr_hpBorda/spr_hpBorda.yy",},},
+    {"id":{"name":"spr_impactFrame","path":"sprites/spr_impactFrame/spr_impactFrame.yy",},},
     {"id":{"name":"spr_invisivelTP","path":"sprites/spr_invisivelTP/spr_invisivelTP.yy",},},
     {"id":{"name":"spr_moedaPH","path":"sprites/spr_moedaPH/spr_moedaPH.yy",},},
     {"id":{"name":"spr_obstacPH","path":"sprites/spr_obstacPH/spr_obstacPH.yy",},},
@@ -99,9 +101,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Pontuacao","path":"rooms/Pontuacao/Pontuacao.yy",},},
-    {"roomId":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
