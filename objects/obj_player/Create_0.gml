@@ -83,6 +83,9 @@ particulasPlayer = function(_tipo){
 			instance_create_layer(x+_xOff, y+_yOff, "Player", obj_coleta1);
 		
 		break;
+		case(3):	//Poeira Skate
+			instance_create_layer(x - 75, (y+sprite_height/2)-43, "Player", obj_skatePart);	
+		break;
 	}
 }
 

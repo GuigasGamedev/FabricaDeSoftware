@@ -4,6 +4,7 @@ if(global.inicioJogo){
 		intSombra--;
 	}else{
 		particulasPlayer(1);
+		particulasPlayer(3);
 		intSombra = intSombraMax;
 	}
 }else if(!global.gameOver){
@@ -15,13 +16,10 @@ if(global.inicioJogo){
 		intSombra--;
 	}else{
 		particulasPlayer(1);
+		particulasPlayer(3);
 		intSombra = intSombraMax;
 	}
 	
-}
-
-if(!image_index){
-	instance_create_layer(x - 75, (y+sprite_height/2)-40, "Player", obj_skatePart);	
 }
 
 xscale = lerp(xscale, xscaleOrig, .2);
