@@ -2,6 +2,13 @@ randomise();
 
 sprite = global.spriteObj;
 alfa = 1;
+xScale = 1;
+yScale = 1;
+
+//Efeito de pulsar
+freq = random_range(2,2.5);
+tam = 1.3;
+
 rotacao = random_range(0,180);
 cor = c_white;
 

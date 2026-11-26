@@ -1,6 +1,6 @@
 if(tipo>0){
 	draw_sprite_ext(spr_aura, 0, scroll, draw_y+25, 1, 1, rotacao, cor, alfa-.7);
-	draw_sprite_ext(sprite, image_index, scroll, draw_y + 25, 1, 1, 0, c_white, alfa);
+	draw_sprite_ext(sprite, image_index, scroll, draw_y + 25, xScale, yScale, 0, c_white, alfa);
 }else{
 	draw_sprite_ext(sprite, image_index, scroll, draw_y, 1, 1, 0, c_white, alfa);
 }

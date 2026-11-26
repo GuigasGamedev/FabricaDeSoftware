@@ -18,6 +18,11 @@ if(!coletado){
 
 rotacao +=.5;
 
+var _dif = sin(freq*constante/50)*tam;
+
+xScale = clamp(1+_dif, .9, 1.1);
+yScale = clamp(1-_dif, .7, 1);
+
 if(tipo>0){
 	constante++;
 	draw_y -= sin(constante/20);

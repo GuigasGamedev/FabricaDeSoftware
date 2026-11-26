@@ -67,7 +67,7 @@ Melhorias{
 		Melhorar cores da cenoura
 		Melhorar a "aura"
 		Trocar o chocolate por hamburguer
-		Melhorar os coletaveis (seguir o video do noneclass)
+		Melhorar os coletaveis - Feito
 	}
 	Fazer mais particulas{
 		Power up - Feito
