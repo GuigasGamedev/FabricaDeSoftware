@@ -86,6 +86,9 @@ particulasPlayer = function(_tipo){
 		case(3):	//Poeira Skate
 			instance_create_layer(x - 75, (y+sprite_height/2)-43, "Player", obj_skatePart);	
 		break;
+		case(4):	//Brilhos PowerUp
+			instance_create_layer(x, y, "Player", obj_powerUpBri);
+		break;
 	}
 }
 
@@ -167,6 +170,7 @@ powerUp = function(){
 			PUTimer = PUTimermax;
 			obj_invencivelTP.inverterValores();
 			global.spritePlayer = spr_player2;
+			image_speed = 2;
 			velSave = global.velRua;
 		}else{
 			
@@ -182,6 +186,7 @@ powerUp = function(){
 				
 				if(!(PUTimer mod 10)){
 					particulasPlayer(2);
+					particulasPlayer(4);
 				}
 				
 				if(!PUTimer){
@@ -191,6 +196,7 @@ powerUp = function(){
 					invencivelPU = 0;
 					PowerUpON = 0;
 					global.spritePlayer = spr_playerPH;
+					image_speed = 1;
 					global.velRua -= global.velPU;
 				}
 			}

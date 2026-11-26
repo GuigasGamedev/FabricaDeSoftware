@@ -70,9 +70,9 @@ Melhorias{
 		Melhorar os coletaveis (seguir o video do noneclass)
 	}
 	Fazer mais particulas{
-		Power up
-		Vagalumes
-		Poeira
+		Power up - Feito
+		Vagalumes (noite)
+		Poeira (dia)
 		itens soltando particulas
 	
 	}
