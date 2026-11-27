@@ -71,17 +71,14 @@ Melhorias{
 	}
 	Fazer mais particulas{
 		Power up - Feito
-		Vagalumes (noite)
-		Poeira (dia)
 		itens soltando particulas - Feito
-	
 	}
 	Fazer "impact frames" - Feito
 	Fazer screenshake quando coletar coisas com o power up ligado - Feito
 	Barra de vide tremer quando estiver baixa - Feito
 	Fazer power up recuperar a vida toda - Feito
 	Fazer efeito de movimento no player (tanto para cima e para baixo, quanto para "frente" - Feito para frente
-	Melhorar o menu
+	Melhorar o menu - Acho que ta bom
 	Menu de Configurações{
 		Controles(talvez)
 		Musica
@@ -89,7 +86,5 @@ Melhorias{
 		Particulas
 		Ver como funciona vsync
 		
-	}
-	Sistema de dia e noite
-
+	}	
 }

@@ -40,6 +40,7 @@
   "name":"FabricaDeSoftware",
   "resources":[
     {"id":{"name":"fnt_fonteMenor","path":"fonts/fnt_fonteMenor/fnt_fonteMenor.yy",},},
+    {"id":{"name":"fnt_fonteMenu","path":"fonts/fnt_fonteMenu/fnt_fonteMenu.yy",},},
     {"id":{"name":"fnt_fonteMoedas","path":"fonts/fnt_fonteMoedas/fnt_fonteMoedas.yy",},},
     {"id":{"name":"A Fazer","path":"notes/A Fazer/A Fazer.yy",},},
     {"id":{"name":"Audios","path":"notes/Audios/Audios.yy",},},
@@ -65,6 +66,7 @@
     {"id":{"name":"obj_skatePart","path":"objects/obj_skatePart/obj_skatePart.yy",},},
     {"id":{"name":"obj_sombraPart","path":"objects/obj_sombraPart/obj_sombraPart.yy",},},
     {"id":{"name":"Transicao_obj","path":"objects/Transicao_obj/Transicao_obj.yy",},},
+    {"id":{"name":"Configuracoes","path":"rooms/Configuracoes/Configuracoes.yy",},},
     {"id":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Pontuacao","path":"rooms/Pontuacao/Pontuacao.yy",},},
@@ -105,9 +107,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Jogo","path":"rooms/Jogo/Jogo.yy",},},
     {"roomId":{"name":"Pontuacao","path":"rooms/Pontuacao/Pontuacao.yy",},},
+    {"roomId":{"name":"Configuracoes","path":"rooms/Configuracoes/Configuracoes.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

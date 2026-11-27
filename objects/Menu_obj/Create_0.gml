@@ -183,7 +183,7 @@ controleParalax = function(){
 #region Variaveis
 
 //Array de opcoes e index de escolha
-opcoes				= ["Jogar", "Sair"];
+opcoes				= ["Jogar", "Opções", "Sair"];
 index				= 0;
 
 //numero de opcoes

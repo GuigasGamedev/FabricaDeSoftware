@@ -1,12 +1,12 @@
 	//x e y iniciais dos textos
 	var _x1			= 100;
-	var _y1			= 300;
+	var _y1			= 240;
 	
 	//variaves para desnhar as opções
-	var _fonteMenu			= fnt_fonteMoedas;
+	var _fonteMenu			= fnt_fonteMenu;
 	var _corMenu			= c_white;
 	var _corSecund			= c_ltgray;
-	var _corSelec			= c_red;
+	var _corSelec			= c_yellow;
 	var _corSelecSecund		= c_maroon;
 	var _alinhamentoVMenu	= fa_middle;
 	var _alinhamentoHMenu	= fa_left;
@@ -20,8 +20,8 @@
 	var _mouseY		= device_mouse_y_to_gui(0);
 	
 	//valor do efeito Stretch para x e y
-	var _xScaVal	= 1.5;
-	var _yScaVal	= 0.5;
+	var _xScaVal	= 1.3;
+	var _yScaVal	= 0.8;
 	
 	//velocidade do efeito Stretch
 	var _vellerp	= 0.3;
@@ -69,19 +69,25 @@ if(menuPrincipal){
 			index = _i;
 			
 			//desenha o texto com as dimensões do stretch e cor
+			draw_text_transformed_colour(_x1-5, _y1+5 + (_marg * _i), opcoes[_i], xStretch, yStretch, 0, c_black, c_black, c_black, c_black, alfaMenu);
 			draw_text_transformed_colour(_x1, _y1 + (_marg * _i), opcoes[_i], xStretch, yStretch, 0, _corSelec, _corSelec, _corSelecSecund, _corSelecSecund, alfaMenu);
 			
 			//checando o botao esquerdo do mouse para selecionar uma opcao
 			if(mouse_check_button_pressed(mb_left)){
 				switch(index){
-					case 0:	//Jogar
+					case(0):	//Jogar
 						
 						desaparecendoMenu = 1;
 							var _transic = instance_create_layer(x, y, "Transicao", Transicao_obj);	
 							global.roomDest = Jogo;
 					
 					break;
-					case 1:	//Sair
+					case(1):
+						desaparecendoMenu = 1;
+							var _transic = instance_create_layer(x, y, "Transicao", Transicao_obj);	
+							global.roomDest = Configuracoes;
+					break;
+					case(2):	//Sair
 					
 						game_end();
 					
@@ -97,6 +103,7 @@ if(menuPrincipal){
 				index = -1;
 			}
 			//desenha o texto branco normalmente
+			draw_text_transformed_colour(_x1-5, _y1+5 + (_marg * _i), opcoes[_i], 1, 1, 0, c_black, c_black, c_black, c_black, alfaMenu);
 			draw_text_transformed_colour(_x1, _y1 + (_marg * _i), opcoes[_i], 1, 1, 0, _corMenu, _corMenu, _corSecund, _corSecund, alfaMenu);
 		}
 	
