@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_coleta1",
+  "%Name":"obj_itemBri",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_coleta1",
+  "name":"obj_itemBri",
   "overriddenProperties":[],
   "parent":{
     "name":"Particulas",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coleta",
-    "path":"sprites/spr_coleta/spr_coleta.yy",
+    "name":"spr_ponto",
+    "path":"sprites/spr_ponto/spr_ponto.yy",
   },
   "spriteMaskId":null,
   "visible":true,

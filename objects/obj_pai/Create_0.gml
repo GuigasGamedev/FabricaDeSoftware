@@ -23,6 +23,9 @@ draw_y = 0;
 
 constante = 0;
 
+timerPartMax = 20;
+timerPart = timerPartMax;
+
 tipo = 0;
 valor = 0;
 
@@ -33,21 +36,23 @@ coletaEfeito = function(_efeito){
 			repeat(7){
 				var _randomX = random_range(-50, 50);
 				var _randomY = random_range(-50, 50);
-				instance_create_layer(x+_randomX, y+_randomY, "Obstaculo", obj_coleta0);	
+				var _part = instance_create_layer(x+_randomX, y+_randomY, "Obstaculo", obj_coleta0);	
 			}
 		break;
 		case(1):
 			repeat(7){
 				var _randomX = random_range(-50, 50);
 				var _randomY = random_range(-50, 50);
-				instance_create_layer(x+_randomX, y+_randomY, "Obstaculo", obj_coleta1);	
+				var _part = instance_create_layer(x+_randomX, y+_randomY, "Obstaculo", obj_coleta0);	
+				_part.image_blend = c_aqua;
 			}
 		break;
 		case(2):
 			repeat(7){
 				var _randomX = random_range(-50, 50);
 				var _randomY = random_range(-50, 50);
-				instance_create_layer(x+_randomX, y+_randomY, "Obstaculo", obj_coleta2);	
+				var _part = instance_create_layer(x+_randomX, y+_randomY, "Obstaculo", obj_coleta0);	
+				_part.image_blend = c_red;	
 			}
 		break;
 	}

@@ -80,7 +80,8 @@ particulasPlayer = function(_tipo){
 			var _xOff = random_range(-100, 100);
 			var _yOff = random_range(-100, 100);
 		
-			instance_create_layer(x+_xOff, y+_yOff, "Player", obj_coleta1);
+			var _part = instance_create_layer(x+_xOff, y+_yOff, "Player", obj_coleta0);
+			_part.image_blend = c_aqua;
 		
 		break;
 		case(3):	//Poeira Skate

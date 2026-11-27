@@ -73,7 +73,7 @@ Melhorias{
 		Power up - Feito
 		Vagalumes (noite)
 		Poeira (dia)
-		itens soltando particulas
+		itens soltando particulas - Feito
 	
 	}
 	Fazer "impact frames" - Feito
@@ -82,7 +82,7 @@ Melhorias{
 	Fazer power up recuperar a vida toda - Feito
 	Fazer efeito de movimento no player (tanto para cima e para baixo, quanto para "frente" - Feito para frente
 	Melhorar o menu
-	Menu de opções{
+	Menu de Configurações{
 		Controles(talvez)
 		Musica
 		Sons
